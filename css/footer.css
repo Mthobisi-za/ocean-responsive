@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 0px;
+    background-color: #091432;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+}
+.footer-img{
+    margin-left: 62px;
+    margin-top: 23px;
+}
+.footer-icons{
+    float: right;
+    display: flex;
+    gap: 10px;
+}
+.actual-icon{
+    width: 56px;
+    height: 56px;
+    background: #cdced1;
+    margin-top: 37px;
+    border-radius: 50%;
+    text-align: center;
+}
+.actual-icon img{
+    margin-top: 14px;
+}
+.fcb{
+    margin-top:5px;
+}

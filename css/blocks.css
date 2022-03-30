@@ -1,0 +1,29 @@
+.blocks{
+    margin: auto;
+    margin-top: 182px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+}
+.block{
+    width: 225px;
+    min-height: 300px;
+    background: #aaaaaa;
+    border-radius: 10px;
+}
+.sub{
+    font-size: 114px;
+    margin-left: 32px;
+    margin-top: 44px;
+    color: white;
+}
+.line{
+    width: 80%;
+    margin: auto;
+}
+.text-line{
+    width: 80%;
+    margin: auto;
+    margin-top: 42px;
+}

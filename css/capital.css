@@ -1,0 +1,35 @@
+.capital-section{
+    width: 80%;
+    margin: auto;
+}
+.capital-section h1{
+    
+    margin-top: 160px;
+}
+.capital-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0;
+    margin-top: 62px;
+}
+.container-one, .container-two{
+    width: 50%;
+}
+.one-text, .two-text{
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+    .capital-container{
+      display: block;
+        width: 100%;
+        gap: 0;
+        margin-top: 62px;
+    }
+    .container-one, .container-two{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
